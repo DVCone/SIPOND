@@ -1,0 +1,64 @@
+
+<!-- IBU -->
+<div role="tabpanel" class="tab-pane fade" id="biodata_ibu">
+   <form method="POST" id="form_ibu">
+      <div class="row">
+         <div class="col-sm-6">
+            <b>No KTP ibu</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="noktpibu" type="text" class="form-control" />
+                  <input id="nisisiibu" name="nisisiibu" type="hidden" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Nama ibu</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="namaibu" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Tempat Tanggal Lahir ibu</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="ttlibu" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Pendidikan ibu</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="pendidikanibu" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Pekerjaan ibu</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="pekerjaanibu" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Penghasilan ibu</b>
+            <div class="input-group">
+               <div class="form-line">
+                  <input name="gajiibu" type="text" class="form-control money-dollar" placeholder="Ex: 99,99 $">
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-12">
+            <div class="form-group">
+               <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}">
+               <button id="btnibu" class="btn btn-primary waves-effect" disabled="true">Simpan Data</button>
+            </div>
+         </div>
+      </div>
+   </form>
+</div>

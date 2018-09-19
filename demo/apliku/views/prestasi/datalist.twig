@@ -1,0 +1,69 @@
+
+                  <button type="button" class="ml-auto btn btn-info waves-effect m-r-20" data-toggle="modal" data-target="#search_date">Cari Data</button> 
+               <br />
+               <br />
+               <div class="table-responsive">
+                  <table class="table table-bordered table-striped table-hover dataTable" id="data_prestasi">
+                     <thead>
+                        <tr>
+                           <th>No</th>
+                           <th>NIS</th>
+                           <th>Nama Siswa</th>
+                           <th>Kelas</th>
+                           <th>Tanggal</th>
+                           <th>Prestasi</th>
+                           <th>Catatan</th>
+                           <th>Hapus</th>
+                        </tr>
+                     </thead>
+
+                     <tbody id="show_data">
+
+                     </tbody>
+                  </table>
+               </div>
+            
+
+<div id="search_date" class="modal fade" tabindex="-1" role="dialog">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h4 class="modal-title">Search Data By Date Range</h4>
+         </div>
+         <div class="modal-body">
+            <form method="post" id="sort_prestasi">
+               <div class="row clearfix">
+               <div class="col-md-12">
+                            <div class="form-group">
+                            <b>Nama Siswa</b>
+                                <div class="form-line">
+                           <input name="namasiswa" type="text" class="form-control">
+                        </div>
+                            </div>
+                        </div>
+                  <div class="col-sm-6">
+                     <div class="form-group">
+                        <div class="form-line">
+                           <input type="text" class="form-control datepicker"name="tanggal_awal" id="tanggal_awal" placeholder="Tanggal Awal">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <div class="form-group">
+                        <div class="form-line">
+                           <input type="text" class="form-control datepicker"name="tanggal_akhir" id="tanggal_akhir" placeholder="Tanggal Akhir">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}">
+            </form>
+         </div>
+         <div class="modal-footer">
+            <button id="search_data_prestasi" class="btn btn-link waves-effect" type="button">UPDATE</button>
+            <button class="btn btn-link waves-effect" type="button" data-dismiss="modal">CLOSE</button>
+         </div>
+      </div>
+
+   </div>
+</div>

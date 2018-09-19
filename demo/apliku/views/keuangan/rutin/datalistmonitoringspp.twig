@@ -1,0 +1,68 @@
+{% extends 'layouts/master_layouts.twig' %}
+
+{% block main_content %}
+
+<div class="container-fluid">
+   <div class="block-header">
+
+   </div>
+
+   <div class="row clearfix">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+         <div class="card">
+            <div class="body">
+               <div class="block-header" align="center"><b>Laporan Monitoring SPP</b></div>
+               <div class="table-responsive">
+                  <table class="table table-bordered table-striped table-hover dataTable" id="data_monitoringspp">
+                     <thead>
+                        <tr>
+                           <th>No</th>
+                           <th>NIS</th>
+                           <th>Nama Siswa</th>
+                           <th>Kelas</th>
+                           <th>Juli</th>
+                           <th>Agustus</th>
+                           <th>September</th>
+                           <th>Oktober</th>
+                           <th>November</th>
+                           <th>Desember</th>
+                           <th>Januari</th>
+                           <th>Februari</th>
+                           <th>Maret</th>
+                           <th>April</th>
+                           <th>Mei</th>
+                           <th>Juni</th>
+                        </tr>
+                     </thead>
+
+                     <tbody id="show_data">
+
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div id="search_date" class="modal fade" tabindex="-1" role="dialog">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <div class="modal-body">
+            <form method="post" id="sort_monitoringspp">
+
+               <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}">
+            </form>
+         </div>
+      </div>
+
+   </div>
+</div>
+{% endblock %}
+
+{% block custom_js %}
+
+{% include 'layouts/datatable.twig' %}
+
+{% endblock %}

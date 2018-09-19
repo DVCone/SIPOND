@@ -1,0 +1,55 @@
+<form method="POST" id="form_data_berita">
+
+   <div class="col-sm-3">
+      <b>Tanggal</b>
+      <div class="form-group">
+         <!-- <div class="form-line"> -->
+         <input size = "15" type="text" class="form-control" name="tanggal" id="tanggalInput" value="{{ "now" | date("Y-m-d") }}"  required />
+         <!-- </div> -->
+      </div>
+   </div>
+
+   <div class="col-sm-3">
+      <b>Ditujukan</b>
+      <div class="form-group">
+         <div class="form-line">
+            <input id="ditujukan" name="ditujukan" type="text" class="form-control" />
+         </div>
+      </div>
+   </div>
+
+   <div class="col-sm-3">
+      <b>Tertanda</b>
+      <div class="form-group">
+         <div class="form-line">
+            <input id="pj" name="pj" type="text" class="form-control" />
+         </div>
+      </div>
+   </div>
+   <div class="col-sm-3">
+      <b>Judul</b>
+      <div class="form-group">
+         <div class="form-line">
+            <input id="judul" name="judul" type="text" class="form-control" />
+         </div>
+      </div>
+   </div>
+
+   <div class="col-sm-12">
+      <b>Isi Berita</b>
+      <div class="form-group">
+         <div class="form-line">
+            <textarea name="isi" id="isi" class="form-control" >Silahkan isi komentar anda</textarea>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="col-sm-12">
+      <div class="form-group">
+         <input type="hidden" id="csrf" name="{{ csrf_name }}" value="{{ csrf_hash }}">
+         <button type="reset" class="btn btn-danger waves-effect">Batalkan Isian</button>
+         <button type="submit" class="btn btn-primary waves-effect">Simpan Data</button>
+      </div>
+   </div>
+</form>

@@ -1,0 +1,78 @@
+<form method="POST" id="form_data_kesehatan_siswa">
+
+    <div class="col-sm-12">
+        <b>Pencarian Siswa</b>
+        <!-- <div class="form-group"> -->
+        <select name="cari_siswa" id="cari_siswa" class="form-control show-tick" data-live-search="true" onchange="changeFunc();">
+                              <option value=""></option>
+                              {% for m in data %}
+                                 <option value="{{ m.nis }}#{{ m.namasiswa }}#{{ m.kelas }}#{{ m.namaayah }}">{{ m.nis }} - {{ m.namasiswa }} Kelas {{ m.kelas }} Bin/ti {{ m.namaayah }}</option>
+                              {% endfor %}
+
+                           </select>
+        <div class="form-group">
+            <div id="error_box"></div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <!-- batas -->
+
+    <div class="col-sm-12">
+        <!-- <b>Data Siswa</b> -->
+        <div class="form-group">
+            <div id="errorBox"></div>
+
+            <input id="nis" name="nis" type="text" class="form-control" readonly />
+            <input id="namasiswa" name="namasiswa" type="text" class="form-control" readonly />
+            <input id="kelas" name="kelas" type="text" class="form-control" readonly />
+            <input id="namaayah" name="namaayah" type="text" class="form-control" readonly />
+
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <b>Tanggal</b>
+        <div class="form-group">
+            <!-- <div class="form-line"> -->
+            <input size="15" type="text" class="form-control" name="tanggal" id="tanggalInput" value="{{ " now " | date("Y-m-d ")}}" required />
+            <!-- </div> -->
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <b>Keluhan</b>
+        <div class="form-group">
+            <div class="form-line">
+                <input name="keluhan" type="text" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <b>Obat</b>
+        <div class="form-group">
+            <div class="form-line">
+                <input name="obat" type="text" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12">
+        <b>Catatan</b>
+        <div class="form-group">
+            <div class="form-line">
+                <input name="catatan" type="text" class="form-control" />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-sm-12">
+        <div class="form-group">
+            <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}" style="display: none">
+            <button type="reset" class="btn btn-danger waves-effect">Batalkan Isian</button>
+            <button class="btn btn-primary waves-effect" type="submit">Simpan Data</button>
+        </div>
+    </div>
+</form>

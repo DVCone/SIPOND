@@ -1,0 +1,61 @@
+<script type="text/javascript">
+
+    $(document).on('click','.btnsendPrint',function(e){
+        e.preventDefault()
+        $.ajax({
+            url: '{{base_url("index.php/jurnal/printnow")}}',
+            method: "POST",
+            data: '{{ csrf_name }}={{ csrf_hash }}&nonota='  + $('input[name=nonota]').val(),
+            dataType: "json",
+            success: function(res) {
+                var data = res.data.id
+                datatotable(data)
+                $('#myModal').modal('show');
+            }
+        });
+    })
+
+    function datatotable(data){
+        var rekening = ""
+        var debet = ""
+        var kredit = ""
+        var td = 0
+        var tk = 0
+        var ket=""
+        var pp=""
+        var dbt = 0
+        var krd = 0
+        $.each(data,function(i,v){
+            dbt = v.debet
+            krd = v.kredit
+            rekening += v.rekening+`<br />`
+            debet += `Rp. `+(v.debet).toLocaleString()+`<br />`
+            kredit += `Rp. `+(v.kredit).toLocaleString()+`<br />`
+            ket = v.keterangan
+            pp = v.pengguna
+            td+=parseInt(v.debet)
+            tk+=parseInt(v.kredit)
+        })
+        if(dbt == 0){
+            titlejurnal = "Bukti Kas Keluar"
+        }else{
+            titlejurnal = "Bukti Kas Masuk"
+        }
+
+        
+        $('.titlejurnal').html(titlejurnal)
+        $('#namapengguna').html(pp)
+        $('#setKeterangan').html(ket)
+        $('#rekeningkode').html(rekening)
+        $('#debetkode').html(debet)
+        $('#kreditkode').html(kredit)
+        $('#modaltotald').html(td)
+        $('#modaltotalk').html(tk)
+        
+    }
+
+
+    $('#btn-modal-print').on('click', function() {
+      $('#printable').print();
+   });
+</script>

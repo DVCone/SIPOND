@@ -1,0 +1,52 @@
+{% extends 'layouts/master_layouts.twig' %} {% block main_content %}
+<div class="container-fluid">
+    <!-- Widgets -->
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>
+                        DATA PRESTASI SISWA
+                        <!-- <small>Harap Menisi Data Kesehatan <a href="">Dengan Teliti</a></small> -->
+                    </h2>
+                </div>
+                <div class="body">
+                    <div class="container-fluid">
+                        <div class="row clearfix">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs tab-nav-right" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#home" data-toggle="tab">PENGISIAN DATA PRESTASI SISWA</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#lll" data-toggle="tab">LAPORAN DATA PRESTASI SISWA</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="home">
+                                    {% include 'prestasi/prestasiv.twig' %}
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="lll">
+                                    {% include 'prestasi/datalist.twig' %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- #END# Widgets -->
+    <!-- CPU Usage -->
+</div>
+{% endblock %} 
+
+{% block custom_js %} 
+
+{% include 'layouts/form-validation.twig' %} 
+
+{% include 'layouts/datatable.twig' %} 
+
+{% endblock %}

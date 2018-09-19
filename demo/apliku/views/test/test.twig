@@ -1,0 +1,115 @@
+{% extends 'layouts/master_layouts.twig' %}
+
+{% block main_content %}
+
+   <div class="container-fluid">
+      <!-- Widgets -->
+      <div class="row clearfix">
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+               <div class="header">
+                  <h2 align="left">
+                     TAMBAH PENGGUNA
+
+                     <!-- <small>Harap Menisi Data Kesehatan <a href="">Dengan Teliti</a></small> -->
+                  </h2>
+               </div>
+               <div class="body">
+                  <div class="row clearfix">
+                     <form method="POST" id="form_test">
+
+                        <div class="col-sm-4">
+                           <b>User</b>
+                           <div class="form-group">
+                              <div class="form-line">
+                                 <input name="input_userid" id="input_userid" type="text" class="form-control" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <b>Password</b>
+                           <div class="form-group">
+                              <div class="form-line">
+                                 <input name="input_password" id="input_password" type="password" class="form-control" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                           <b>Confirm Password</b>
+                           <div class="form-group">
+                              <div class="form-line">
+                                 <input name="input_confirm_password" id="input_confirm_password" type="password" class="form-control" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <b>Department</b>
+                           <div class="form-group">
+                              <div class="form-line">
+                                 <input name="input_dept" id="input_dept" type="text" class="form-control" />
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <b>Kodenota</b>
+                           <div class="form-group">
+                              <div class="form-line">
+                                 <input name="input_kodenota" id="input_kodenota" type="text" class="form-control" />
+                              </div>
+                           </div>
+                        </div>
+
+
+                        <div class="col-sm-12">
+                           <div class="form-group">
+                              <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}" style="display: none">
+                              <button class="btn btn-primary waves-effect" type="submit">Tambah Data</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- #END# Widgets -->
+      <!-- CPU Usage -->
+   </div>
+
+   <!--EDIT-->
+
+   <div class="container-fluid">
+      <!-- Widgets -->
+      <div class="row clearfix">
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+               <div class="header">
+                  <h2 align="left">
+                     UBAH DATA INFORMASI PENGGUNA
+                     <!-- <small>Harap Menisi Data Kesehatan <a href="">Dengan Teliti</a></small> -->
+                  </h2>
+               </div>
+               <div class="body">
+                  <div class="row clearfix">
+                     <h2>{{ username }}</h2>
+
+                     {% for data in test %}
+                        {{ data.group_id }}
+                        <br>
+                     {% endfor %}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- #END# Widgets -->
+      <!-- CPU Usage -->
+   </div>
+
+{% endblock %}
+
+{% block custom_js %}
+
+   {% include 'layouts/form-validation.twig' %}
+
+{% endblock %}

@@ -1,0 +1,81 @@
+<!-- AYAH -->
+<div role="tabpanel" class="tab-pane fade" id="biodata_ayah">
+   <form method="POST" id="form_ayah">
+      <div class="row">
+         <div class="col-sm-3">
+            <b>No KK</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="nokk" type="text" class="form-control" />
+                  <input id="nisisiayah" name="nisisiayah" type="hidden" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-3">
+            <b>No KTP Ayah</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="noktpayah" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Nama Ayah</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="namaayah" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <!-- Habis 12-->
+         <div class="col-sm-6">
+            <b>Tempat Tanggal Lahir Ayah</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="ttlayah" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Email</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="email" type="text" class="form-control email" placeholder="Ex: bapakibu@contohemail.web.id">
+               </div>
+            </div>
+         </div>
+         <!-- Habis 12-->
+         <div class="col-sm-4">
+            <b>Pendidikan Ayah</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="pendidikanayah" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4">
+            <b>Pekerjaan Ayah</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="pekerjaanayah" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4">
+            <b>Penghasilan Ayah</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="gajiayah" type="text" class="form-control money-dollar" placeholder="Ex: 99,99 $">
+               </div>
+            </div>
+         </div>
+
+         <div class="col-sm-12">
+            <div class="form-group">
+               <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}">
+               <button id="btnayah" class="btn btn-primary waves-effect" disabled="true">Simpan Data</button>
+            </div>
+         </div>
+      </div>
+   </form>
+</div>

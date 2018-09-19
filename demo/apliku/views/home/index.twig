@@ -1,0 +1,82 @@
+{% extends 'layouts/master_layouts.twig' %}
+
+{% block main_content %}
+
+   <div class="container-fluid">
+      <!--             <div class="block-header">
+         <h2 align="center">Set Informasi Sekolah</h2>
+         </div> -->
+
+         <!-- Tabs With Icon Title -->
+         <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+               <div class="card">
+                  <div class="header">
+                     <h2>
+                        Pengisian Biodata Siswa
+                     </h2>
+                     <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                           <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                              <i class="material-icons">more_vert</i>
+                           </a>
+                           <ul class="dropdown-menu pull-right">
+                              <li><a href="javascript:void(0);">Action</a></li>
+                              <li><a href="javascript:void(0);">Another action</a></li>
+                              <li><a href="javascript:void(0);">Something else here</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="body">
+                     <!-- Nav tabs -->
+                     <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active">
+                           <a href="#biodata_siswa_baru" data-toggle="tab">
+                              <i class="material-icons">perm_identity</i> Biodata
+                           </a>
+                        </li>
+                        <li role="presentation">
+                           <a href="#biodata_ayah" data-toggle="tab">
+                              <i class="material-icons">face</i> Ayah
+                           </a>
+                        </li>
+                        <li role="presentation">
+                           <a href="#biodata_ibu" data-toggle="tab">
+                              <i class="material-icons">pregnant_woman</i> Ibu
+                           </a>
+                        </li>
+                        <li role="presentation">
+                           <a href="#biodata_alamat_siswa" data-toggle="tab">
+                              <i class="material-icons">location_on</i> Alamat
+                           </a>
+                        </li>
+                        <!-- <li role="presentation">
+                           <a href="#sekolah_with_icon_title" data-toggle="tab">
+                           <i class="material-icons">school</i> Sekolah
+                           </a>
+                           </li>  -->
+                     </ul>
+
+                     <!-- Tab panes -->
+                     <div class="tab-content">
+                        <!-- BIODATA -->
+                        <div role="tabpanel" class="tab-pane fade in active" id="biodata_siswa_baru">
+                           {{ title }}
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- #END# Tabs With Icon Title -->
+            <!-- CPU Usage -->
+         </div>
+   </div>
+
+{% endblock %}
+
+{% block custom_js %}
+
+   {% include 'layouts/custom/form-validation.twig' %}
+
+{% endblock %}

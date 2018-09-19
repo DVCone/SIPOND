@@ -1,0 +1,2 @@
+create view vmasterbarang as SELECT barang . * , jenisbarang.namajenisbarang, jenisbarang.umurekonomis, jenisinstansi.namainstansi
+FROM (barang INNER JOIN jenisbarang ON MID( barang.noinventaris, 5, 2 ) = jenisbarang.kodejenisbarang) INNER JOIN jenisinstansi ON LEFT( barang.noinventaris, 3 ) = jenisinstansi.kodeinstansi

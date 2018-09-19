@@ -1,0 +1,263 @@
+[21-Feb-2018 14:02:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/sipy1897/public_html/demo/apliku/views/keuangan/settingsiswa/settingsiswav.php on line 35
+[23-Feb-2018 21:28:56 Asia/Jakarta] PHP Fatal error:  Call to a member function carinonota() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 89
+[25-Feb-2018 14:17:12 Asia/Jakarta] PHP Fatal error:  Call to a member function getSiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 96
+[25-Feb-2018 14:18:21 Asia/Jakarta] PHP Fatal error:  Call to a member function getSiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 96
+[25-Feb-2018 14:20:12 Asia/Jakarta] PHP Fatal error:  Call to a member function getSiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:21:26 Asia/Jakarta] PHP Fatal error:  Call to a member function getSiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:21:46 Asia/Jakarta] PHP Fatal error:  Call to a member function getSiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:23:47 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:23:52 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:23:52 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:23:55 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:27:13 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:28:16 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:31:35 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:36:21 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:44:15 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:45:49 Asia/Jakarta] PHP Fatal error:  Call to a member function getsiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[25-Feb-2018 14:46:39 Asia/Jakarta] PHP Fatal error:  Call to a member function carisiswa() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 97
+[05-Mar-2018 20:37:33 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/sipy1897/public_html/demo/apliku/views/keuangan/laporan/neracasaldo2.php on line 10
+[06-Mar-2018 12:03:57 Asia/Jakarta] PHP Fatal error:  Call to undefined method Keuanganlaporanm::bukubesarcari() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganlaporan.php on line 52
+[07-Mar-2018 09:41:23 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 118
+[07-Mar-2018 14:37:17 Asia/Jakarta] PHP Fatal error:  Call to undefined method Keuanganrutinm::datalistpenerimaantransfer() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 143
+[08-Mar-2018 09:59:37 Asia/Jakarta] PHP Fatal error:  Call to undefined method Keuanganrutinm::datalistuangsakusisa() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 166
+[09-Mar-2018 14:57:19 Asia/Jakarta] PHP Fatal error:  Call to undefined method Nilaim::carisiswa() in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 23
+[10-Mar-2018 09:07:07 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/sipy1897/public_html/demo/apliku/models/Nilaim2.php on line 13
+[13-Mar-2018 19:57:13 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/sipy1897/public_html/demo/apliku/controllers/Php_excel.php on line 301
+[13-Mar-2018 19:58:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/sipy1897/public_html/demo/apliku/controllers/Php_excel.php on line 306
+[16-Mar-2018 09:13:42 Asia/Jakarta] PHP Fatal error:  Call to a member function upload() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 100
+[16-Mar-2018 14:13:08 Asia/Jakarta] PHP Fatal error:  Call to a member function getHighestRow() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 113
+[17-Mar-2018 13:42:29 Asia/Jakarta] PHP Fatal error:  Call to a member function setActiveSheetIndex() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 185
+[18-Mar-2018 10:29:24 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 237
+[18-Mar-2018 10:29:53 Asia/Jakarta] PHP Fatal error:  Call to a member function mergeCells() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 232
+[18-Mar-2018 10:30:20 Asia/Jakarta] PHP Fatal error:  Call to a member function mergeCells() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 250
+[18-Mar-2018 10:30:44 Asia/Jakarta] PHP Fatal error:  Call to a member function mergeCells() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 250
+[18-Mar-2018 10:32:32 Asia/Jakarta] PHP Fatal error:  Call to a member function mergeCells() on a non-object in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 250
+[18-Mar-2018 11:02:26 Asia/Jakarta] PHP Fatal error:  Call to undefined method Nilaim::downloadisinilai() in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 221
+[18-Mar-2018 11:03:02 Asia/Jakarta] PHP Fatal error:  Call to undefined method Nilaim::downloadisinilai() in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 221
+[18-Mar-2018 11:47:20 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sipy1897/public_html/demo/asistku/database/DB_driver.php on line 1855
+[18-Mar-2018 11:48:23 Asia/Jakarta] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/sipy1897/public_html/demo/apliku/controllers/Nilai.php on line 182
+[02-Apr-2018 13:21:17 Asia/Jakarta] PHP Fatal error:  Call to a member function get_session() on a non-object in /home/sipy1897/public_html/demo/apliku/views/header.php on line 13
+[23-Apr-2018 10:13:24 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/sipy1897/public_html/demo/apliku/third_party/Twig-2.4.8/lib/Twig/Autoloader.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sipy1897/public_html/demo/apliku/libraries/Twig.php on line 13
+[23-Apr-2018 10:13:30 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/sipy1897/public_html/demo/apliku/third_party/Twig-2.4.8/lib/Twig/Autoloader.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sipy1897/public_html/demo/apliku/libraries/Twig.php on line 13
+[23-Apr-2018 10:14:13 Asia/Jakarta] PHP Fatal error:  require_once(): Failed opening required '/home/sipy1897/public_html/demo/apliku/third_party/Twig/lib/Twig/Autoloader.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sipy1897/public_html/demo/apliku/libraries/Twig.php on line 13
+[26-Apr-2018 10:38:15 Asia/Jakarta] PHP Fatal error:  Call to a member function cariuserterakhir() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 86
+[26-Apr-2018 10:44:49 Asia/Jakarta] PHP Fatal error:  Call to a member function cariuserterakhir() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 87
+[26-Apr-2018 10:47:58 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 81
+[26-Apr-2018 11:23:54 Asia/Jakarta] PHP Fatal error:  Cannot use [] for reading in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 83
+[26-Apr-2018 15:10:02 Asia/Jakarta] PHP Fatal error:  Call to a member function get_user_id() on null in /home/sipy1897/public_html/demo/apliku/controllers/Test.php on line 29
+[27-Apr-2018 08:48:47 Asia/Jakarta] PHP Fatal error:  Call to undefined method Penggunam::caridept() in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 33
+[27-Apr-2018 09:07:10 Asia/Jakarta] PHP Fatal error:  Call to undefined method Penggunam::distinct() in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 33
+[27-Apr-2018 09:11:14 Asia/Jakarta] PHP Fatal error:  Call to undefined function result() in /home/sipy1897/public_html/demo/apliku/models/Penggunam.php on line 15
+[27-Apr-2018 09:22:31 Asia/Jakarta] PHP Fatal error:  Call to undefined method Penggunam::select() in /home/sipy1897/public_html/demo/apliku/models/Penggunam.php on line 14
+[27-Apr-2018 11:32:11 Asia/Jakarta] PHP Fatal error:  Call to a member function caridept() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 44
+[27-Apr-2018 13:21:47 Asia/Jakarta] PHP Fatal error:  Call to a member function caridept() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 44
+[27-Apr-2018 13:22:26 Asia/Jakarta] PHP Fatal error:  Call to a member function caridept() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetpengguna.php on line 44
+[27-Apr-2018 14:29:28 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on boolean in /home/sipy1897/public_html/demo/apliku/models/Penggunam.php on line 65
+[27-Apr-2018 16:09:56 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on boolean in /home/sipy1897/public_html/demo/apliku/models/Penggunam.php on line 69
+[27-Apr-2018 16:11:02 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on boolean in /home/sipy1897/public_html/demo/apliku/models/Penggunam.php on line 69
+[27-Apr-2018 16:28:29 Asia/Jakarta] PHP Fatal error:  Call to a member function initialize() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 179
+[27-Apr-2018 17:04:26 Asia/Jakarta] PHP Fatal error:  Function name must be a string in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 210
+[27-Apr-2018 17:08:38 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on boolean in /home/sipy1897/public_html/demo/apliku/models/Penggunam.php on line 69
+[28-Apr-2018 11:41:49 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 197
+[01-May-2018 09:13:51 Asia/Jakarta] PHP Fatal error:  Call to undefined method Siswam::save() in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 254
+[01-May-2018 09:15:00 Asia/Jakarta] PHP Fatal error:  Call to undefined method Siswam::save() in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 254
+[01-May-2018 09:30:31 Asia/Jakarta] PHP Fatal error:  Call to undefined method Siswam::uplad() in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 254
+[01-May-2018 09:46:54 Asia/Jakarta] PHP Fatal error:  Call to undefined method Siswam::where() in /home/sipy1897/public_html/demo/apliku/models/Siswam.php on line 93
+[01-May-2018 09:50:25 Asia/Jakarta] PHP Fatal error:  Call to undefined method Siswam::where() in /home/sipy1897/public_html/demo/apliku/models/Siswam.php on line 93
+[04-May-2018 08:39:34 Asia/Jakarta] PHP Fatal error:  Call to a member function display_errors() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 339
+[04-May-2018 08:55:50 Asia/Jakarta] PHP Fatal error:  Call to a member function initialize() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 341
+[06-May-2018 19:41:03 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[06-May-2018 19:41:22 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[07-May-2018 08:22:03 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[07-May-2018 16:55:14 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[07-May-2018 17:00:12 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[07-May-2018 17:00:17 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[07-May-2018 20:05:33 Asia/Jakarta] PHP Fatal error:  Call to undefined method Siswa::select() in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 357
+[08-May-2018 08:32:04 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[08-May-2018 08:42:14 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[08-May-2018 08:43:23 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Writer/Excel2007.php on line 227
+[08-May-2018 09:56:29 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Reader/Excel2007.php on line 94
+[08-May-2018 09:56:43 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Reader/Excel2007.php on line 94
+[08-May-2018 09:57:26 Asia/Jakarta] PHP Fatal error:  Class 'ZipArchive' not found in /home/sipy1897/public_html/demo/apliku/libraries/PHPExcel/Reader/Excel2007.php on line 94
+[11-May-2018 08:53:20 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on null in /home/sipy1897/public_html/demo/apliku/models/Keuanganrutinm.php on line 99
+[11-May-2018 08:55:27 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 51
+[11-May-2018 08:57:13 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 67
+[11-May-2018 08:57:15 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 67
+[11-May-2018 08:57:19 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 67
+[11-May-2018 08:57:20 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 67
+[11-May-2018 08:58:12 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 67
+[11-May-2018 08:58:14 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 67
+[11-May-2018 08:59:31 Asia/Jakarta] PHP Fatal error:  Can't use function return value in write context in /home/sipy1897/public_html/demo/apliku/views/keuangan/jurnal/jurnalkeluarv.php on line 67
+[11-May-2018 09:08:25 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Siswa::datalist() in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 320
+[11-May-2018 20:02:10 Asia/Jakarta] PHP Fatal error:  Call to undefined method Keuanganrutinm::data_traansfer() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 248
+[11-May-2018 20:02:41 Asia/Jakarta] PHP Fatal error:  Call to undefined method Keuanganrutinm::data_traansfer() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 248
+[12-May-2018 09:57:16 Asia/Jakarta] PHP Fatal error:  Call to a member function data_kesehatan() on null in /home/sipy1897/public_html/demo/apliku/controllers/Perizinan.php on line 105
+[12-May-2018 10:45:20 Asia/Jakarta] PHP Fatal error:  Call to undefined method Prestasim::data_prestasi() in /home/sipy1897/public_html/demo/apliku/controllers/Prestasi.php on line 105
+[12-May-2018 14:22:34 Asia/Jakarta] PHP Fatal error:  Cannot redeclare Apim::kesehatan() in /home/sipy1897/public_html/demo/apliku/models/Apim.php on line 30
+[15-May-2018 06:33:58 Asia/Jakarta] PHP Fatal error:  Cannot use object of type CI_DB_mysqli_result as array in /home/sipy1897/public_html/demo/apliku/controllers/Login.php on line 64
+[15-May-2018 06:35:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function sidebar_create() in /home/sipy1897/public_html/demo/apliku/views/sampingkiri.php on line 28
+[15-May-2018 06:42:25 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 98
+[15-May-2018 06:42:41 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 153
+[15-May-2018 06:43:40 Asia/Jakarta] PHP Fatal error:  Cannot use object of type stdClass as array in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 153
+[15-May-2018 09:21:44 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 12:25:54 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 13:49:46 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 13:49:53 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 15:53:38 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 15:56:17 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 15:58:52 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 14
+[15-May-2018 15:59:09 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 15:59:50 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:00:19 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:00:24 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:00:51 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:02:07 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:03:13 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:03:30 Asia/Jakarta] PHP Fatal error:  Call to undefined function authApp() in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 164
+[15-May-2018 16:04:19 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:04:35 Asia/Jakarta] PHP Fatal error:  Call to a member function addGlobal() on null in /home/sipy1897/public_html/demo/apliku/controllers/Siswa.php on line 11
+[15-May-2018 16:09:04 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 16:14:05 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 16:14:10 Asia/Jakarta] PHP Fatal error:  Call to a member function display() on null in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 32
+[15-May-2018 18:15:41 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ''<li>' (T_ENCAPSED_AND_WHITESPACE) in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 114
+[15-May-2018 18:15:43 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 259
+[15-May-2018 18:15:46 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 259
+[15-May-2018 18:17:32 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[15-May-2018 18:17:49 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[15-May-2018 18:19:24 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[15-May-2018 18:20:27 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[15-May-2018 19:28:31 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[15-May-2018 19:28:31 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[15-May-2018 19:28:34 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[15-May-2018 19:28:35 Asia/Jakarta] PHP Fatal error:  Call to undefined function authApp() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 189
+[15-May-2018 19:28:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:28:48 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:28:53 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:29:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:29:07 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:29:35 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:29:59 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:30:22 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:30:44 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:32:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:32:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:33:13 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:02 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:40 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:41 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:47 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:34:50 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 19:40:03 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 203
+[15-May-2018 20:42:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[16-May-2018 06:23:20 Asia/Jakarta] PHP Fatal error:  Call to undefined function getGroupMenu() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 138
+[16-May-2018 08:38:24 Asia/Jakarta] PHP Fatal error:  Call to undefined function authApp() in /home/sipy1897/public_html/demo/apliku/controllers/Aclcontroller.php on line 19
+[16-May-2018 10:53:28 Asia/Jakarta] PHP Fatal error:  Call to undefined function acl_create() in /home/sipy1897/public_html/demo/apliku/controllers/Api.php on line 125
+[16-May-2018 10:54:07 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 395
+[16-May-2018 17:02:36 Asia/Jakarta] PHP Fatal error:  Call to undefined function authApp() in /home/sipy1897/public_html/demo/apliku/controllers/Aclcontroller.php on line 19
+[16-May-2018 17:09:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 369
+[16-May-2018 17:09:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 369
+[16-May-2018 17:10:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 369
+[16-May-2018 17:10:08 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 369
+[16-May-2018 17:10:17 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/sipy1897/public_html/demo/apliku/helpers/itusajja_helper.php on line 369
+[17-May-2018 07:24:08 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{' in /home/sipy1897/public_html/demo/apliku/models/Acl.php on line 89
+[17-May-2018 07:29:32 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{' in /home/sipy1897/public_html/demo/apliku/models/Acl.php on line 89
+[17-May-2018 07:29:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '{' in /home/sipy1897/public_html/demo/apliku/models/Acl.php on line 89
+[17-May-2018 07:48:12 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/sipy1897/public_html/demo/apliku/models/Acl.php on line 97
+[17-May-2018 07:48:14 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/sipy1897/public_html/demo/apliku/models/Acl.php on line 97
+[17-May-2018 08:27:11 Asia/Jakarta] PHP Fatal error:  Call to a member function data_tahfidz() on null in /home/sipy1897/public_html/demo/apliku/controllers/Tahfidz.php on line 103
+[17-May-2018 09:06:58 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:07:40 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:08:48 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:08:56 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:09:55 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:10:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:11 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:12 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:17 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:19 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:21 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:28 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:31 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:41 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:50 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:11:56 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:12:27 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:12:38 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:12:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:12:52 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:11 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:38 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:39 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:43 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:46 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:47 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:49 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:13:56 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:14:18 Asia/Jakarta] PHP Fatal error:  Call to undefined function echo_base_url() in /home/sipy1897/public_html/demo/apliku/views/header.php on line 127
+[17-May-2018 09:43:07 Asia/Jakarta] PHP Fatal error:  Call to undefined method Keuanganrutin::get() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 11
+[18-May-2018 13:51:54 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganuangsakukeluar.php on line 41
+[20-May-2018 05:30:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected end of file in /home/sipy1897/public_html/demo/apliku/views/siswa/datalist.php on line 255
+[22-May-2018 11:09:37 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 62
+[22-May-2018 11:10:15 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 62
+[22-May-2018 11:10:21 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 62
+[22-May-2018 11:12:20 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '++' (T_INC) in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 62
+[22-May-2018 11:17:40 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 11:18:30 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 11:20:37 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 11:25:16 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 11:26:10 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 15:43:35 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 15:43:45 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 15:46:08 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[22-May-2018 15:47:02 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[23-May-2018 07:09:03 Asia/Jakarta] PHP Fatal error:  Call to a member function update_biodata_karyawan() on null in /home/sipy1897/public_html/demo/apliku/controllers/Karyawan.php on line 150
+[23-May-2018 08:59:02 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[23-May-2018 08:59:29 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[23-May-2018 08:59:54 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[23-May-2018 09:00:00 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[23-May-2018 09:00:17 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[23-May-2018 09:01:43 Asia/Jakarta] PHP Fatal error:  Cannot access empty property in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 53
+[23-May-2018 09:40:08 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$output' (T_VARIABLE) in /home/sipy1897/public_html/demo/apliku/models/Pelanggaranm.php on line 64
+[23-May-2018 09:47:45 Asia/Jakarta] PHP Fatal error:  Call to undefined method stdClass::date() in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 56
+[23-May-2018 09:48:55 Asia/Jakarta] PHP Fatal error:  Call to undefined method stdClass::date() in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 56
+[23-May-2018 09:49:02 Asia/Jakarta] PHP Fatal error:  Call to undefined method stdClass::date() in /home/sipy1897/public_html/demo/apliku/models/Perizinanm.php on line 56
+[24-May-2018 09:35:46 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/sipy1897/public_html/demo/apliku/models/Siswam.php on line 178
+[24-May-2018 09:35:47 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/sipy1897/public_html/demo/apliku/models/Siswam.php on line 178
+[24-May-2018 13:08:55 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ')' in /home/sipy1897/public_html/demo/apliku/models/Keuanganlaporanm.php on line 69
+[24-May-2018 13:08:58 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ')' in /home/sipy1897/public_html/demo/apliku/models/Keuanganlaporanm.php on line 69
+[24-May-2018 14:14:57 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'upload' (T_STRING) in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 85
+[24-May-2018 14:15:03 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'upload' (T_STRING) in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 85
+[24-May-2018 23:34:28 Asia/Jakarta] PHP Fatal error:  Call to undefined method CI_Upload::data1() in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 86
+[24-May-2018 23:40:09 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[24-May-2018 23:40:50 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[24-May-2018 23:42:04 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[24-May-2018 23:42:25 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[24-May-2018 23:56:40 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[24-May-2018 23:56:44 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 00:22:59 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 10:15:23 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 10:52:18 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 10:53:29 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 11:03:09 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 11:03:20 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 11:03:28 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[25-May-2018 11:03:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sipy1897/public_html/demo/apliku/models/Sekolah.php on line 33
+[25-May-2018 11:03:37 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sipy1897/public_html/demo/apliku/models/Sekolah.php on line 33
+[25-May-2018 11:03:42 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/sipy1897/public_html/demo/apliku/models/Sekolah.php on line 33
+[25-May-2018 11:06:28 Asia/Jakarta] PHP Fatal error:  Call to a member function update_logosekolah() on null in /home/sipy1897/public_html/demo/apliku/controllers/Adminsetsekolah.php on line 88
+[26-May-2018 09:29:24 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '$query' (T_VARIABLE) in /home/sipy1897/public_html/demo/apliku/controllers/Jurnal.php on line 128
+[28-May-2018 11:14:42 Asia/Jakarta] PHP Fatal error:  Call to undefined method CI_DB_mysqli_driver::result() in /home/sipy1897/public_html/demo/apliku/models/Siswam.php on line 215
+[28-May-2018 13:42:08 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting identifier (T_STRING) in /home/sipy1897/public_html/demo/apliku/controllers/Jurnal.php on line 31
+[28-May-2018 13:42:15 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting identifier (T_STRING) in /home/sipy1897/public_html/demo/apliku/controllers/Jurnal.php on line 31
+[28-May-2018 13:42:20 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT), expecting identifier (T_STRING) in /home/sipy1897/public_html/demo/apliku/controllers/Jurnal.php on line 31
+[30-May-2018 14:18:54 Asia/Jakarta] PHP Fatal error:  Call to undefined function parseInt() in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 218
+[30-May-2018 14:19:13 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 218
+[30-May-2018 14:21:33 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 218
+[30-May-2018 14:21:56 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 218
+[30-May-2018 14:22:31 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 218
+[30-May-2018 14:23:09 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 216
+[30-May-2018 14:25:32 Asia/Jakarta] PHP Fatal error:  Unsupported operand types in /home/sipy1897/public_html/demo/apliku/controllers/Keuanganrutin.php on line 220

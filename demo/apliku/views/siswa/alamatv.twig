@@ -1,0 +1,69 @@
+<!-- Alamat -->
+<div role="tabpanel" class="tab-pane fade" id="biodata_alamat_siswa">
+
+   <form method="POST" id="form_alamat">
+      <div class="row">
+         <div class="col-sm-6">
+            <b>Nomor telepon</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input id="telephon" name="telephon" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Alamat</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="alamat" type="text" class="form-control" />
+                  <input id="nikisialamat" name="nikisialamat" type="hidden" class="form-control" />
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <div class="row">
+         <div class="col-sm-6">
+            <b>Kelurahan</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="kelurahan" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Kecamatan</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="kecamatan" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-sm-6">
+            <b>Kota</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="kota" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-6">
+            <b>Provinsi</b>
+            <div class="form-group">
+               <div class="form-line">
+                  <input name="provinsi" type="text" class="form-control" />
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-12">
+            <div class="form-group">
+               <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}" style="display: none">
+               <button id="btnalamat" class="btn btn-primary waves-effect" disabled="true">Simpan Data</button>
+            </div>
+         </div>
+      </div>
+   </form>
+</div>

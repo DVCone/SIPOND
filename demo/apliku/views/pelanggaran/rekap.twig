@@ -1,0 +1,32 @@
+<div class="table-responsive">
+   <table class="table table-bordered table-striped table-hover dataTable" id="rekap_pelanggaran">
+      <thead>
+         <tr>
+            <th>No</th>
+            <th>NIS</th>
+            <th>Nama Siswa</th>
+            <th>Kelas</th>
+            <th>Poin</th>
+         </tr>
+      </thead>
+
+      <tbody id="show_data">
+
+      </tbody>
+   </table>
+</div>
+
+
+<div id="search_date" class="modal fade" tabindex="-1" role="dialog">
+   <div class="modal-dialog" role="document">
+      <div class="modal-content">
+         <div class="modal-body">
+            <form method="post" id="sort_rekap_pelanggaran">
+               
+               <input type="hidden" name="{{ csrf_name }}" value="{{ csrf_hash }}">
+            </form>
+         </div>
+      </div>
+
+   </div>
+</div>
